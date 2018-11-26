@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>MIKHMON QR CODE SCANNER</title>
+<title>DM COmputer | QR Code</title>
   <style>
     video {
       width: 100%    !important;
@@ -21,9 +21,9 @@
     }
     .camera{
       padding:5px;
-      background-color: #20a8d8;
+      
       border-radius:3px;
-      width: 80%;
+      width: 100%;
     }
     a{
       text-decoration: none;
@@ -62,39 +62,29 @@
       }  
     }
   </style>
-<script type="text/javascript" src="https://damar98.github.io/llqrcode.js"></script>
-<script type="text/javascript" src="https://damar98.github.io/webqr.js"></script>
+<script type="text/javascript" src="llqrcode.js"></script>
+<script type="text/javascript" src="webqr.js"></script>
+
 </head>
 <body>
+  
+
+
   <center>
     <div id="main">
       <div id="mainbody">
-        <div class="progress">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        
         <div class="camera" id="outdiv"></div>
         <div style="display: table;">
           <div style="display: table-row;">
-            <div style="display: table-cell; padding:3px;">
-              <div class="btn" id="reload" onclick="location.reload();">Reload Camera</div>
-            </div>
-            <div style="display: table-cell; padding:3px;">
-              <div class="btn" onclick="document.location = 'googlechrome://navigate?url=https://laksa19.github.io/myqr/';">Open in Chrome</div>
-            </div>
+                        
           </div>
         </div>
       </div>
     </div>
-    <div>MIKHMON QR CODE SCANNER <br>Powered by <a href="http://www.webqr.com">webqr.com</a></div>
+    
   </center>
-<canvas style="display:none;" id="qr-canvas" width="800" height="600"></canvas>
+<canvas style="display:none;" id="qr-canvas" width="500" height="600"></canvas>
 <script type="text/javascript">load();</script>
 </body>
 </html>
